@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Inter', sans-serif;
   ;
@@ -150,7 +153,7 @@ body {
 }
 
 .tag {
-  /* padding: 4px 8px; */
+  padding: 4px 4px;
   display: inline-block;
   font-weight: 400;
   font-size: 12px;
@@ -189,4 +192,127 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.developer {
+  padding: 80px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-about {
+  margin-left: 55px;
+}
+
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+}
+.developer-title{
+  font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.developer-text{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.motto{
+  font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #DD9C3C;
+    margin: 16px 0;
+}
+.developer-sign{
+  /* position: absolute; */
+    max-width: 200px;
+    left: 621px;
+    top: 1526px;
+}
+.skills{
+  padding: 20px 0;
+}
+.skills-title{
+  font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+.feedback{
+  padding: 80px 160px;
+}
+.input-group{
+  position: relative;
+  margin-bottom: 24px;
+}
+.input-label{
+  position: absolute;
+  top: 0px;
+  margin-left: 16px;
+  align-items:center;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background: #FFFFFF;
+}
+.input-group{
+  padding-top: 9px;
+
+}
+.input{
+  border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+}
+.textarea{
+  min-width:140px ;
+}
+.form-container{
+  max-width: 735px;
+  margin: auto;
+}
+.submit-button{
+
+  display: flex;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    margin-left: 55px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border: none;
+    border-bottom: 2px solid #fff;
+    
+    
+    cursor: pointer;
+}
+.button-group{
+  display: flex;
+  justify-content: flex-end;
 }
