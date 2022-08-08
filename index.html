@@ -18,16 +18,16 @@
     <img src="/images/Union.svg" alt="logo">
     <nav class="navigation">
       <ul class="nav-list">
-        <li class="nav-item"><a href="https://www.art.com/" class="nav-link active">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+        <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#porfolio" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
       </ul>
     </nav>
   </div>
   <!-- ./navbar-->
 
-  <header class="header container">
+  <header class="header container" id="main">
     <img src="/images/memojis.png" alt="avatar" class="header-photo">
     <!-- /.header-photo -->
 
@@ -59,7 +59,7 @@
   <!-- /.header -->
 
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <h2 class="section-headihg">Последние проекты</h2>
       <div class="cards">
@@ -116,7 +116,7 @@
   </section>
   <!-- /.portfolio -->
 
-  <section class="developer container">
+  <section class="developer container" id="developer">
     <img src="/images/я.jpg" alt="img" class="developer-photo">
     <div class="developer-about">
       <span class="developer-hello">
@@ -136,11 +136,11 @@
     <!-- /.about -->
   </section>
   <!-- /.developer container -->
-  <section class="skills container">
+  <section class="skills container" id="skills">
     <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
     <ul class="tags">
-      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/HTml.png" alt="HTml"
-            class="prom"></a></li>
+      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/HTml.png"
+            alt="HTml" class="prom"></a></li>
       <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/CSS.png" alt="CSS"
             class="prom"></a></li>
       <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/JAVASCRIPT.png"
@@ -150,43 +150,46 @@
             alt="Wordpress" class="prom"></a></li>
       <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/npm.png" alt="npm"
             class="prom"></a></li>
-      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Reactjs.png" alt="Reactjs"
-            class="prom"></a></li>
-      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Nextjs.png" alt="Nextjs"
-            class="prom"></a></li>
-      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Ul Disign.png" alt="Ul Disign"
-            class="prom"></a></li>
-            <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/SASS.png" alt="SASS"
-                  class="prom"></a></li>
+      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Reactjs.png"
+            alt="Reactjs" class="prom"></a></li>
+      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Nextjs.png"
+            alt="Nextjs" class="prom"></a></li>
+      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/Ul Disign.png"
+            alt="Ul Disign" class="prom"></a></li>
+      <li class="tags-item"><a href="#" class="tag"><img src="/images/Developer Portfolio (Copy) (6)/SASS.png"
+            alt="SASS" class="prom"></a></li>
     </ul>
   </section>
-<!--skills-->
-<section class="feedback form-container">
-  <h2 class="feedback-title">Готов обсудить проект...
-  </h2>
-  <form action="" class="form">
-   <div class="input-group">
-    <label for="username" class="input-label">Имя</label>
-    <input id="userName" type="text" class="input" />
-   </div>
-<!--input-group-->
-<div class="input-group">
-  <label for="username" class="input-label">Email</label>
-  <input id="userEmail" type="text" class="input" />
-</div>
-<!--input-group-->
-<div class="input-group">
-  <label for="userMassage" class="input-label">Сообщение</label>
-  <textarea  id="userMassage" cols="30" rows="30" class="input textarea"></textarea>
-</div>
-<!--input-group-->
-<div class="button-group">
-  <button type="submit" class="submit-button"> <img src="/images/button.svg" alt="send"> <span
-      class="cv-text">Отправить</span> </butoon>
-</div>
-  </form>
-  
-</section>
+  <!--skills-->
+  <section class="feedback" id="feedback">
+    <img src="/images/hand.png" alt="hand" class="feedback-hand">
+    <div class="form-container">
+      <h2 class="feedback-title">Готов обсудить проект...
+      </h2>
+      <form action="" class="form">
+        <div class="input-group">
+          <label for="username" class="input-label">Имя</label>
+          <input id="userName" type="text" class="input" />
+        </div>
+        <!--input-group-->
+        <div class="input-group">
+          <label for="username" class="input-label">Email</label>
+          <input id="userEmail" type="text" class="input" />
+        </div>
+        <!--input-group-->
+        <div class="input-group">
+          <label for="userMassage" class="input-label">Сообщение</label>
+          <textarea id="userMassage" cols="30" rows="30" class="input textarea"></textarea>
+        </div>
+        <!--input-group-->
+        <div class="button-group">
+          <button type="submit" class="submit-button"> <img src="/images/button.svg" alt="send"> <span
+              class="cv-text">Отправить</span> </butoon>
+        </div>
+      </form>
+    </div>
+
+  </section>
 
   </div>
 
